@@ -142,8 +142,8 @@
     <ClCompile Include="230111_RList.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ConsoleEngine\ConsoleEngine.vcxproj">
-      <Project>{d5e4ddae-c63a-404b-9b90-54591c9ac4e2}</Project>
+    <ProjectReference Include="..\..\..\cine_1212\Engine_Console\Engine_Console.vcxproj">
+      <Project>{b3d64295-84a8-4230-9fed-b3281fdb6415}</Project>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

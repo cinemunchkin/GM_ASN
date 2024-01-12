@@ -81,6 +81,7 @@ public:
 		// 연산자 겹지정 중에 
 		void operator++()
 		{
+			/// CurNode = CurNode->Prev;
 			CurNode = CurNode->Next;
 		}
 
@@ -114,6 +115,7 @@ public:
 	iterator begin()
 	{
 		return iterator(Start -> Next);
+		// begin : Start -> Next
 	}
 
 	iterator end()
@@ -124,6 +126,9 @@ public:
 	reverse_iterator rbegin()
 	{
 		return reverse_iterator(End -> Prev);
+			//Reverse begin: End->Previous
+			//생성자
+
 	}
 
 	reverse_iterator rend()
